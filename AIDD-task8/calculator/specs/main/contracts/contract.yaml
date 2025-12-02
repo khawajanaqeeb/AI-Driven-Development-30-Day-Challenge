@@ -1,0 +1,21 @@
+# Functional Contract for Calculator
+
+- function_name: evaluate_expression
+  description: "Evaluates a mathematical expression string and returns the result."
+  
+  inputs:
+    - name: expression
+      type: string
+      description: "The mathematical expression to evaluate (e.g., '2 + 3 * 4')."
+      required: true
+
+  outputs:
+    - name: result
+      type: number
+      description: "The numerical result of the evaluation."
+
+  errors:
+    - type: ValueError
+      description: "Raised when the expression is malformed or contains invalid characters."
+    - type: ZeroDivisionError
+      description: "Raised when the expression attempts to divide by zero."
