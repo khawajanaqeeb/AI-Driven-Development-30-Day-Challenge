@@ -78,3 +78,19 @@ Blog Planner → Draft → Grammar Checker → Text Simplifier → Published
 ---
 
 **Duration**: Advanced level | **Impact**: High
+## Skills Images
+
+![skill1](./images/skill-1.png)
+
+![skill2](./images/skill-2.png)
+
+![skill3](./images/skill-3.png)
+
+## Agents Images
+
+![agent1](./images/agent-1.png)
+
+![agent2](./images/agent-2.png)
+
+![agent3](./images/agent-3.png)
+         
